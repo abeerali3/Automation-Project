@@ -1,0 +1,9 @@
+pytest test_navigationMenu.py --html=report.html
+
+@pytest.mark.only
+
+pytest -m <mark_name>
+
+@pytest.mark.skip
+
+pytest test_FileName.py -k test_NAME 
